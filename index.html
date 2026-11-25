@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MKS Group | Engineering solutions and general contracting in Egypt</title>
+<meta name="description" content="MKS Group is an engineering solutions and general contracting company in New Maadi, Cairo. Drawings, BIM coordination, metal formwork, turnkey finishing and MEP, delivered as one team.">
+<meta property="og:title" content="MKS Group | Engineering solutions and general contracting">
+<meta property="og:description" content="Engineering certainty, from the first drawing to the final handover.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"GeneralContractor","name":"MKS Group","url":"https://www.mksgroupco.com","email":"info@mksgroupco.com","telephone":"+20225191521","address":{"@type":"PostalAddress","streetAddress":"First Floor, Building 9, Street 257, New Maadi","addressLocality":"Cairo","addressCountry":"EG"}}</script>
+<style>
+:root{--bg:#06080d;--paper:#f4efe6;--mute:#9a9a96;--line:rgba(255,255,255,.12);--glass:rgba(255,255,255,.06);--gold:#c9a46c;--gold2:#e8c98f;--serif:'Cormorant Garamond',Georgia,serif;--sans:'Manrope',system-ui,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;background:var(--bg)}
+body{background:radial-gradient(1200px 700px at 85% -5%,rgba(201,164,108,.13),transparent 60%),var(--bg);color:var(--paper);font:400 16px/1.65 var(--sans);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.wrap{width:min(1220px,92vw);margin:auto}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.05;letter-spacing:-.01em}
+h2{font-size:clamp(34px,4.6vw,64px);max-width:16ch}
+h2 em{font-style:italic;color:var(--gold2);font-weight:400}
+p{color:#cfcac0;max-width:58ch}
+section{padding:clamp(70px,10vw,140px) 0}
+.sub{color:var(--mute);font-size:14px;margin-bottom:14px;display:block}
+.glass{background:var(--glass);border:1px solid var(--line);border-radius:22px;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
+.btn{display:inline-flex;align-items:center;gap:10px;border:1px solid rgba(255,255,255,.35);padding:13px 26px;border-radius:99px;font-weight:500;font-size:15px;transition:.25s;background:transparent;color:var(--paper);cursor:pointer;font-family:var(--sans)}
+.btn:hover{background:var(--paper);color:#000}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:#120d05}.btn.gold:hover{background:var(--gold2);border-color:var(--gold2)}
+/* nav: three columns so logo, pills and button never collide */
+nav{position:fixed;top:14px;left:50%;transform:translateX(-50%);width:min(1220px,94vw);z-index:30;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:16px}
+nav .lg img{height:30px;width:auto;display:block}
+nav .pills{display:flex;gap:6px;padding:6px;border-radius:99px;background:rgba(10,12,18,.55);border:1px solid var(--line);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+nav .pills a{padding:9px 18px;border-radius:99px;font-size:14px;color:#d9d4ca;transition:.25s;white-space:nowrap}
+nav .pills a:hover{color:#fff}nav .pills a.on{background:var(--paper);color:#000}
+nav .cta{justify-self:end}
+/* hero */
+.hero{position:relative;min-height:max(100svh,760px);padding:0;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden}
+#bg{position:absolute;inset:0;width:100%;height:100%;z-index:1}
+.word{position:absolute;z-index:0;left:0;right:0;top:clamp(96px,15vh,150px);text-align:center;font:500 clamp(150px,27vw,420px)/.85 var(--serif);letter-spacing:-.04em;color:rgba(244,239,230,.9);user-select:none}
+.word small{display:block;font:400 clamp(13px,1.5vw,20px)/1.4 var(--sans);letter-spacing:.38em;color:var(--gold2);margin-top:16px;text-indent:.38em}
+.hero:after{content:"";position:absolute;inset:0;z-index:2;background:linear-gradient(to top,var(--bg) 2%,rgba(6,8,13,.72) 30%,transparent 62%)}
+.hero .wrap{position:relative;z-index:3;display:grid;grid-template-columns:1.4fr 1fr;gap:40px;align-items:end;padding-bottom:clamp(34px,6vh,70px)}
+.hero h1{font-size:clamp(32px,4.2vw,62px);font-weight:500;max-width:15ch}
+.hero p{margin:18px 0 26px;font-size:17px}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.tiles div{padding:18px 16px}.tiles b{display:block;font:500 40px/1 var(--serif);color:var(--gold2)}.tiles span{font-size:13px;color:#cfcac0;line-height:1.3;display:block;margin-top:6px}
+.rise{opacity:0;transform:translateY(22px);animation:up 1.1s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes up{to{opacity:1;transform:none}}
+/* about */
+.two{display:grid;grid-template-columns:1fr 1.15fr;gap:clamp(30px,5vw,80px);align-items:center}
+.vals{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:34px}
+.vals div{padding:18px}.vals b{display:block;font:500 20px var(--serif);margin-bottom:4px}.vals span{font-size:14px;color:var(--mute);line-height:1.45;display:block}
+.scene{position:relative;border-radius:26px;overflow:hidden;border:1px solid var(--line)}
+.scene svg{width:100%;display:block}
+.scene .tg{position:absolute;left:16px;bottom:16px;padding:11px 18px;font-size:14px}
+.dy{transition:opacity 1.3s}.w{fill:#23211f;stroke:#fff;stroke-opacity:.3;transition:fill 1s}.cv{fill:none;stroke:#e8c98f;stroke-width:0;transition:stroke-width .8s}.lp{opacity:0;transition:opacity 1.3s}
+.n .dy{opacity:0}.n .w{fill:#e8c98f;filter:drop-shadow(0 0 9px #e8c98f)}.n .cv{stroke-width:3}.n .lp{opacity:1}
+/* services */
+.svc{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:50px}
+.sv{padding:28px 26px 30px;transition:.35s;position:relative}
+.sv:hover{transform:translateY(-6px);border-color:rgba(201,164,108,.6);background:rgba(201,164,108,.08)}
+.sv svg{width:34px;height:34px;stroke:var(--gold);fill:none;stroke-width:1.4;margin-bottom:22px}
+.sv h3{font-size:26px;margin-bottom:10px}.sv p{font-size:15px;color:#bdb8ad}
+/* process */
+.seq{display:grid;grid-template-columns:1fr 1.2fr;gap:clamp(30px,6vw,100px)}
+.seq .stick{position:sticky;top:110px;align-self:start}
+.steps{position:relative;padding-left:46px}
+.steps:before{content:"";position:absolute;left:12px;top:6px;bottom:6px;width:1px;background:var(--line)}
+.steps i{position:absolute;left:12px;top:6px;width:1px;height:var(--h,0);background:var(--gold);box-shadow:0 0 14px var(--gold)}
+.step{padding:0 0 54px;opacity:.4;transition:opacity .4s;position:relative}
+.step:before{content:attr(data-n);position:absolute;left:-46px;top:2px;width:25px;height:25px;border-radius:50%;background:var(--bg);border:1px solid var(--line);font-size:12px;display:grid;place-items:center;transition:.4s}
+.step.a{opacity:1}.step.a:before{background:var(--gold);color:#120d05;border-color:var(--gold)}
+.step h3{font-size:28px;margin-bottom:8px}
+/* projects */
+.head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;flex-wrap:wrap}
+.rail{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:46px 4vw 20px;scrollbar-width:thin;scrollbar-color:#444 transparent;cursor:grab}
+.rail::-webkit-scrollbar{height:6px}.rail::-webkit-scrollbar-thumb{background:#444;border-radius:9px}
+.pc{flex:0 0 min(400px,82vw);scroll-snap-align:start;border-radius:22px;border:1px solid var(--line);background:var(--glass);overflow:hidden;transition:.35s}
+.pc:hover{border-color:rgba(201,164,108,.6);transform:translateY(-4px)}
+.ph{position:relative;height:250px;overflow:hidden;background:radial-gradient(ellipse at 50% 120%,rgba(201,164,108,.22),#05070b 70%);cursor:zoom-in}
+.ph svg{width:100%;height:100%;display:block}.ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .9s}
+.pc:hover .ph img{transform:scale(1.07)}
+.yr,.cnt{position:absolute;font-size:13px;background:rgba(6,8,13,.65);padding:5px 13px;border-radius:99px;backdrop-filter:blur(8px)}.yr{left:14px;top:14px}.cnt{right:14px;bottom:14px}
+.pb{padding:22px 24px 26px}.pb h3{font-size:26px;margin-bottom:4px}.pb small{display:block;color:var(--gold2);font-size:13px;margin-bottom:12px}.pb p{font-size:15px;color:#bdb8ad}
+.hint{color:var(--mute);font-size:14px;margin-top:6px}
+#mos{display:none;grid-template-columns:repeat(4,1fr);grid-auto-rows:190px;gap:12px;margin-top:20px}#mos.on{display:grid}
+#mos img{width:100%;height:100%;object-fit:cover;border-radius:18px;cursor:zoom-in;transition:transform .5s}#mos img:hover{transform:scale(1.02)}
+#mos img:nth-child(1),#mos img:nth-child(6){grid-column:span 2;grid-row:span 2}
+#lb{position:fixed;inset:0;z-index:60;background:rgba(3,4,7,.96);display:none;place-items:center}#lb.o{display:grid}
+#lb img{max-width:92vw;max-height:84vh;object-fit:contain;border-radius:14px}
+#lb button{position:absolute;background:var(--glass);border:1px solid var(--line);color:var(--paper);width:48px;height:48px;border-radius:50%;font-size:22px;cursor:pointer}
+#lb .x{top:22px;right:22px}#lb .p{left:22px}#lb .nx{right:22px}#lb span{position:absolute;bottom:22px;color:var(--mute);font-size:14px}
+/* commitment, sectors, team */
+.quote{padding:clamp(34px,5vw,70px);text-align:center}
+.quote h2{max-width:20ch;margin:0 auto 20px;font-size:clamp(34px,5vw,70px)}.quote p{margin:auto}
+.sect{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}.sect span{padding:11px 22px;border-radius:99px;border:1px solid var(--line);background:var(--glass);transition:.25s}.sect span:hover{border-color:var(--gold);color:var(--gold2)}
+.team{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:44px}
+.team div{padding:26px 24px}.team h3{font-size:25px;margin-bottom:4px}.team p{font-size:14px;color:var(--mute)}
+/* contact */
+.cta2{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,5vw,70px);padding:clamp(30px,5vw,64px)}
+form{display:grid;gap:16px}label{font-size:13px;color:var(--mute)}
+input,textarea{width:100%;background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:14px;color:var(--paper);font:inherit;padding:14px 16px;transition:border-color .25s}
+input:focus,textarea:focus{outline:0;border-color:var(--gold)}
+form button{justify-self:start}
+.info{display:grid;gap:16px;margin-top:28px}.info b{display:block;font-weight:500;color:var(--mute);font-size:13px}
+footer{border-top:1px solid var(--line);padding:46px 0 36px;color:var(--mute);font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:26px;flex-wrap:wrap;align-items:flex-end}
+footer img{height:64px;width:auto;display:block;margin-bottom:14px}
+@media(max-width:960px){nav{grid-template-columns:1fr auto}nav .pills{display:none}.hero .wrap,.two,.seq,.cta2{grid-template-columns:1fr}.svc{grid-template-columns:1fr 1fr}.seq .stick{position:static}.team{grid-template-columns:1fr 1fr}#mos{grid-template-columns:1fr 1fr}.tiles{max-width:420px}}
+@media(max-width:560px){.svc,.vals{grid-template-columns:1fr}.word{top:100px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rise{opacity:1;transform:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<nav id="nav">
+  <a class="lg" href="#top" aria-label="MKS Group home"><img src="assets/logo-mark-white.png" alt="MKS Group"></a>
+  <div class="pills" id="pills"><a href="#about">About</a><a href="#services">Services</a><a href="#process">Process</a><a href="#work">Projects</a><a href="#team">Leadership</a></div>
+  <a class="btn gold cta" href="#contact">Start a project</a>
+</nav>
+
+<header class="hero" id="top">
+  <div class="word" aria-hidden="true">MKS<small>ENGINEERING SOLUTIONS AND GENERAL CONTRACTING</small></div>
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div>
+      <h1 class="rise" style="animation-delay:.4s">Engineering certainty, from drawing to handover.</h1>
+      <p class="rise" style="animation-delay:.65s">We are an engineering and general contracting company in Cairo. We design, coordinate and build as one team, so what is approved on screen is what stands on site.</p>
+      <div class="rise" style="animation-delay:.9s;display:flex;gap:12px;flex-wrap:wrap"><a class="btn gold" href="#work">View projects</a><a class="btn" href="#contact">Book a consultation</a></div>
+    </div>
+    <div class="tiles rise" style="animation-delay:1.15s">
+      <div class="glass"><b data-c="2">0</b><span>Divisions working as one</span></div>
+      <div class="glass"><b data-c="5">0</b><span>Sectors we serve</span></div>
+      <div class="glass"><b data-c="12">0</b><span>Reference projects</span></div>
+    </div>
+  </div>
+</header>
+
+<section id="about"><div class="wrap two">
+  <div>
+    <span class="sub">About MKS Group</span>
+    <h2>Inspired by precision. <em>Built</em> to last.</h2>
+    <p style="margin-top:22px">We began our careers delivering residential, commercial, healthcare and industrial projects in Kuwait. We founded MKS Group in New Maadi, Cairo to bring the same engineering-led, documented way of working to Egypt, with a licensed design office, a site team and a quality team under one roof.</p>
+    <div class="vals"><div class="glass"><b>Honest reporting</b><span>The full engineering picture at every stage.</span></div><div class="glass"><b>Right first time</b><span>Hold points before each stage moves on.</span></div><div class="glass"><b>One accountable team</b><span>Design, build and finish together.</span></div></div>
+  </div>
+  <div class="scene" id="sc"><svg viewBox="0 0 600 400" role="img" aria-label="Villa elevation shown by day and at night"><defs><linearGradient id="dyg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a5f6b"/><stop offset="1" stop-color="#c3bfb5"/></linearGradient><radialGradient id="gl"><stop offset="0" stop-color="#e8c98f" stop-opacity=".65"/><stop offset="1" stop-color="#e8c98f" stop-opacity="0"/></radialGradient></defs>
+    <rect width="600" height="400" fill="#04060a"/><rect class="dy" width="600" height="400" fill="url(#dyg)"/><rect y="320" width="600" height="80" fill="#0b0e14"/>
+    <ellipse cx="40" cy="300" rx="44" ry="66" fill="#080b10"/><ellipse cx="565" cy="295" rx="40" ry="70" fill="#080b10"/>
+    <path d="M90 320V196h260v-46h170v170z" fill="#171a21" stroke="#fff" stroke-opacity=".5"/><rect x="78" y="186" width="292" height="10" fill="#1f232c" stroke="#fff" stroke-opacity=".5"/><rect x="336" y="140" width="198" height="10" fill="#1f232c" stroke="#fff" stroke-opacity=".5"/>
+    <path class="cv" d="M92 198H348M340 152H520"/>
+    <rect class="w" x="115" y="226" width="52" height="74"/><rect class="w" x="195" y="226" width="52" height="74"/><rect class="w" x="275" y="226" width="52" height="74"/><rect class="w" x="368" y="172" width="46" height="128"/><rect class="w" x="440" y="172" width="46" height="128"/>
+    <g class="lp"><circle cx="40" cy="318" r="60" fill="url(#gl)"/><circle cx="565" cy="318" r="60" fill="url(#gl)"/><circle cx="230" cy="326" r="52" fill="url(#gl)"/><circle cx="420" cy="326" r="52" fill="url(#gl)"/><circle cx="40" cy="312" r="3" fill="#e8c98f"/><circle cx="565" cy="312" r="3" fill="#e8c98f"/><circle cx="150" cy="338" r="2.5" fill="#e8c98f"/><circle cx="230" cy="338" r="2.5" fill="#e8c98f"/><circle cx="310" cy="338" r="2.5" fill="#e8c98f"/><circle cx="390" cy="338" r="2.5" fill="#e8c98f"/><circle cx="470" cy="338" r="2.5" fill="#e8c98f"/></g></svg>
+    <button class="tg glass btn" id="dn" role="switch" aria-checked="false">Switch the lights on</button></div>
+</div></section>
+
+<section id="services" style="padding-top:20px"><div class="wrap">
+  <span class="sub">What we do</span><h2>Complete solutions for every <em>space</em>.</h2>
+  <div class="svc">
+    <div class="sv glass"><svg viewBox="0 0 32 32"><path d="M3 28h26M6 28V12l6-4v20M12 28V6l8 4v18M20 28V14l6 3v11"/></svg><h3>Civil and structural</h3><p>Excavation, concrete foundations, columns and slabs, retaining walls, masonry, waterproofing and facades.</p></div>
+    <div class="sv glass"><svg viewBox="0 0 32 32"><path d="M4 27h24M8 27V15h16v12M5 15l11-9 11 9M13 27v-7h6v7"/></svg><h3>Turnkey finishing</h3><p>Interior design, gypsum ceilings, joinery, stone, flooring and decorative lighting for offices, venues and villas.</p></div>
+    <div class="sv glass"><svg viewBox="0 0 32 32"><path d="M17 3 7 18h8l-2 11 12-16h-8z"/></svg><h3>MEP and smart power</h3><p>Distribution boards, power cabling, plumbing, firefighting and HVAC coordination, planned around the structure.</p></div>
+    <div class="sv glass"><svg viewBox="0 0 32 32"><circle cx="16" cy="12" r="5"/><path d="M16 3v2M5 12h2M25 12h2M8 5l1.5 1.5M24 5l-1.5 1.5M16 19v9M11 28h10"/></svg><h3>Landscape lighting</h3><p>Garden, facade and boundary lighting with insulated underground cabling that turns outdoor space into architecture.</p></div>
+    <div class="sv glass"><svg viewBox="0 0 32 32"><rect x="4" y="5" width="24" height="18" rx="2"/><path d="M9 28h14M16 23v5M9 17l4-4 3 3 5-6"/></svg><h3>Engineering and drawings</h3><p>3D and BIM coordination, clash detection, shop drawings, as-built records and value engineering.</p></div>
+    <div class="sv glass"><svg viewBox="0 0 32 32"><path d="M4 8h24v4H4zM4 14h24v4H4zM4 20h24v4H4zM10 5v22M22 5v22"/></svg><h3>Metal formwork</h3><p>Aluminum and steel system formwork, climbing and slip forms and lean methods that shorten the floor cycle.</p></div>
+  </div>
+</div></section>
+
+<section id="process"><div class="wrap seq">
+  <div class="stick"><span class="sub">How we build</span><h2>We build it on screen <em>first</em>.</h2><p style="margin-top:22px">Most delay and rework starts at the drawing stage, not on site, so that is where we put our discipline. Scroll to follow a package from tender to handover.</p></div>
+  <div class="steps" id="steps"><i></i>
+    <div class="step" data-n="1"><h3>Review the tender</h3><p>Constructability and BOQ review of the drawings and specifications, so scope is clear before work begins.</p></div>
+    <div class="step" data-n="2"><h3>Coordinate in 3D</h3><p>Structural, architectural and MEP models are overlaid and clashes are resolved on screen with documented reports.</p></div>
+    <div class="step" data-n="3"><h3>Issue shop drawings</h3><p>Coordinated drawings for formwork, reinforcement, openings, ceilings, joinery and service routes go to the consultant for approval.</p></div>
+    <div class="step" data-n="4"><h3>Approve materials and mock-ups</h3><p>Samples, method statements and full-scale mock-ups are signed off before bulk procurement.</p></div>
+    <div class="step" data-n="5"><h3>Build under hold points</h3><p>Concrete, cabling and finishes pass inspection before the next stage starts, with regular progress, quality and safety reports.</p></div>
+    <div class="step" data-n="6"><h3>Test, hand over, support</h3><p>Commissioning, snagging and as-built drawings, then O&amp;M manuals, warranties and support during the defects period.</p></div>
+  </div>
+</div></section>
+
+<section id="work" style="padding-bottom:50px"><div class="wrap head">
+  <div><span class="sub">Selected projects</span><h2>Spaces that speak our <em>standard</em>.</h2></div>
+  <p>Work our team delivered in Kuwait across residential, administrative, education, healthcare, commercial, industrial and hospitality sectors.</p>
+</div>
+<div class="rail" id="rail"></div>
+<div class="wrap"><p class="hint">Drag or scroll sideways. Select a photo to enlarge it. Project references are available on request.</p><div id="mos"></div></div></section>
+
+<section style="padding-top:30px"><div class="wrap">
+  <div class="quote glass"><span class="sub">Our commitment</span><h2>Honor the contracts. Keep the <em>promises</em>.</h2><p>We deliver integrated general contracting and engineering solutions on time and to the exact specification, with the quality and safety systems to prove it.</p>
+  <div class="sect" style="justify-content:center"><span>Real estate developers</span><span>Corporate and commercial</span><span>Industrial</span><span>Private luxury residences</span><span>Government</span></div></div>
+</div></section>
+
+<section id="team" style="padding-top:20px"><div class="wrap">
+  <span class="sub">Leadership</span><h2>The people behind <em>MKS</em>.</h2>
+  <div class="team">
+    <div class="glass"><h3>Sherif Shamoun</h3><p>Co-Founder and Chief Executive Officer</p></div>
+    <div class="glass"><h3>Kamal Soliman</h3><p>Co-Founder and Board Member</p></div>
+    <div class="glass"><h3>Marzouq Elmarzouq</h3><p>Co-Founder and Board Member</p></div>
+    <div class="glass"><h3>Mina Kamal</h3><p>Chief Financial Officer</p></div>
+  </div>
+</div></section>
+
+<section id="contact" style="padding-top:20px"><div class="wrap"><div class="cta2 glass">
+  <div><span class="sub">Contact</span><h2>Let's create something that <em>lasts</em>.</h2>
+    <div class="info">
+      <div><b>Email</b><a href="mailto:info@mksgroupco.com">info@mksgroupco.com</a></div>
+      <div><b>Phone</b><a href="tel:+20225191521">+20 2 2519 1521</a></div>
+      <div><b>Office</b>First Floor, Building 9, Street 257, New Maadi, Cairo, Egypt</div>
+    </div></div>
+  <form id="f"><div><label for="n">Your name</label><input id="n" required></div><div><label for="e">Email</label><input id="e" type="email" required></div><div><label for="m">Tell us about your project</label><textarea id="m" rows="4" required></textarea></div><button class="btn gold">Book a consultation</button></form>
+</div></div></section>
+
+<footer><div class="wrap">
+  <div><img src="assets/logo-horizontal-white.png" alt="MKS Group, engineering consultancy and general contracting"><span>Commercial Reg. No. 45355 | Tax Card No. 774-172-932</span></div>
+  <span>&copy; 2027 MKS Group. All rights reserved.</span>
+</div></footer>
+
+<script>
+(function(){
+var $=function(s,r){return (r||document).querySelector(s)},$$=function(s,r){return [].slice.call((r||document).querySelectorAll(s))};
+/* nav pills follow the section in view */
+var secs=['about','services','process','work','team'].map(function(i){return document.getElementById(i)});
+function spy(){var y=scrollY+innerHeight*.4,cur=-1;secs.forEach(function(s,i){if(s.offsetTop<=y)cur=i});$$('#pills a').forEach(function(a,i){a.classList.toggle('on',i===cur)})}
+addEventListener('scroll',spy,{passive:true});spy();
+/* counters */
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(!x.isIntersecting)return;io.unobserve(x.target);var el=x.target,to=+el.dataset.c,s=performance.now();(function f(n){var p=Math.min((n-s)/1400,1);el.textContent=Math.round(to*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(f)})(s)})},{threshold:.6});
+$$('[data-c]').forEach(function(e){io.observe(e)});
+/* build sequence */
+var st=$$('.step'),line=$('#steps i');
+function seq(){var mid=innerHeight*.55,last=-1;st.forEach(function(s,i){if(s.getBoundingClientRect().top<mid)last=i});st.forEach(function(s,i){s.classList.toggle('a',i<=last)});
+ var box=$('#steps').getBoundingClientRect(),h=last<0?0:Math.min(box.height-12,st[last].offsetTop+16);line.style.setProperty('--h',h+'px')}
+addEventListener('scroll',seq,{passive:true});seq();
+/* day and night */
+$('#dn').onclick=function(){var on=$('#sc').classList.toggle('n');this.textContent=on?'Switch the lights off':'Switch the lights on';this.setAttribute('aria-checked',on)};
+/* projects */
+var P=[['2019 to 2021','Residential tower complex','Hawalli, Kuwait','Three 18-floor towers over a three-level basement, with structure and complete finishing. Climbing metal formwork for the cores, a 5-day average floor cycle, handover two months early.'],
+['2016 to 2018','Model villa compound','Sabah Al-Ahmad City, Kuwait','48 repetitive villas built with metal formwork, plus infrastructure. Each concrete structure finished in 21 days, with about 15% less material waste.'],
+['2020 to 2022','Office building','Capital Governorate, Kuwait','A 14-floor building: finishing, interior decoration and MEP systems, with full BIM coordination between disciplines.'],
+['2017 to 2019','Educational complex','Jahra, Kuwait','Three school buildings, a sports hall and playgrounds. Delivered on schedule, before the academic year began.'],
+['2018 to 2019','Retail and restaurants center','Salmiya, Kuwait','Turnkey finishing and decor for 40 retail units and restaurants, opened in phases without interrupting operations.'],
+['2021 to 2023','Specialized hospital fit-out','Hawalli, Kuwait','Six floors including operating rooms and intensive care, with medical MEP and gases, built to infection-control requirements.'],
+['2015 to 2016','Factory and warehouses','Shuwaikh, Kuwait','A steel-frame industrial building with high-flatness concrete floors and attached offices, completed in 11 months.'],
+['2022 to 2023','Four-star hotel renovation','Fahaheel, Kuwait','120 rooms, lobbies and halls rehabilitated in phases while the hotel stayed open, with an interior design approved by the brand.'],
+['Recent works','Kaifan private luxury villa','Kaifan, Kuwait','Internal electrical networks, load distribution, decorative ceilings and concealed cove and linear lighting. Handed over with a hotel-grade finish and no outstanding snags.'],
+['Recent works','Al-Shamiya private estate','Al-Shamiya, Kuwait','Insulated underground cabling and a full garden, landscape and boundary-wall lighting system that turned the grounds into an illuminated facade.'],
+['Recent works','Concrete and formwork packages','Kuwait','Reinforced concrete, metal formwork and casting of slabs and columns for multi-story buildings, held to accurate levels and squareness.'],
+['Recent works','Turnkey fit-out and smart systems','Kuwait','Complex partitions and gypsum ceilings, HVAC and electrical installations, and smart switching and interface systems.']];
+var S=['tower-hawalli','villas-sabah-al-ahmad','office-capital','school-jahra','retail-salmiya','hospital-hawalli','factory-shuwaikh','hotel-fahaheel','kaifan-villa','shamiya-estate','formwork-structures','turnkey-fitout'];
+function art(i){var s=i*97+13,r=function(){s=(s*16807)%2147483647;return s/2147483647},o='',x=10;while(x<390){var w=14+r()*26,hh=30+r()*110;o+='<rect x="'+x.toFixed(0)+'" y="'+(180-hh).toFixed(0)+'" width="'+w.toFixed(0)+'" height="'+hh.toFixed(0)+'" fill="none" stroke="rgba(255,255,255,.35)"/>';for(var k=0;k<hh/14;k++)if(r()<.3)o+='<rect x="'+(x+3+r()*(w-9)).toFixed(0)+'" y="'+(185-hh+k*14).toFixed(0)+'" width="4" height="6" fill="#e8c98f"/>';x+=w+4}return '<svg viewBox="0 0 400 190" preserveAspectRatio="xMidYMax slice" aria-hidden="true">'+o+'<line x1="0" y1="180" x2="400" y2="180" stroke="rgba(255,255,255,.4)"/></svg>'}
+$('#rail').innerHTML=P.map(function(p,i){return '<article class="pc"><div class="ph">'+art(i)+'<span class="yr">'+p[0]+'</span></div><div class="pb"><h3>'+p[1]+'</h3><small>'+p[2]+'</small><p>'+p[3]+'</p></div></article>'}).join('');
+var r=$('#rail'),d=0,sx=0;r.onpointerdown=function(e){if(e.target.closest('.ph'))return;d=1;sx=e.clientX+r.scrollLeft;r.style.scrollSnapType='none'};
+addEventListener('pointerup',function(){d=0;r.style.scrollSnapType=''});addEventListener('pointermove',function(e){if(d)r.scrollLeft=sx-e.clientX});
+/* photos: drop files in assets/projects/<folder>/1.jpg, 2.jpg ... and they appear automatically */
+var lb=document.createElement('div');lb.id='lb';lb.innerHTML='<button class="x" aria-label="Close">&times;</button><button class="p" aria-label="Previous">&#8249;</button><img alt=""><button class="nx" aria-label="Next">&#8250;</button><span></span>';document.body.appendChild(lb);
+var L=[],ix=0;function show(){$('img',lb).src=L[ix];$('span',lb).textContent=(ix+1)+' / '+L.length}
+function open(l,i){L=l;ix=i;show();lb.classList.add('o')}function step(k){ix=(ix+k+L.length)%L.length;show()}
+$('.x',lb).onclick=function(){lb.classList.remove('o')};$('.p',lb).onclick=function(){step(-1)};$('.nx',lb).onclick=function(){step(1)};lb.onclick=function(e){if(e.target===lb)lb.classList.remove('o')};
+addEventListener('keydown',function(e){if(!lb.classList.contains('o'))return;if(e.key==='Escape')lb.classList.remove('o');if(e.key==='ArrowRight')step(1);if(e.key==='ArrowLeft')step(-1)});
+function probe(base,max,cb){var list=[];(function go(n){if(n>max)return;var im=new Image();im.onload=function(){list.push(im.src);cb(im,list);go(n+1)};im.src=base+n+'.jpg'})(1)}
+$$('.pc').forEach(function(c,i){var ph=$('.ph',c);probe('assets/projects/'+S[i]+'/',10,function(im,l){if(l.length===1){im.alt=P[i][1];im.loading='lazy';ph.insertBefore(im,$('.yr',ph));var b=document.createElement('span');b.className='cnt';ph.appendChild(b);ph.onclick=function(){open(l,0)}}$('.cnt',ph).textContent=l.length+(l.length>1?' photos':' photo')})});
+probe('assets/gallery/',8,function(im,l){var m=$('#mos');m.classList.add('on');var g=im.cloneNode();g.alt='MKS Group interior and finishing work';g.loading='lazy';g.onclick=function(){open(l,l.indexOf(g.src))};m.appendChild(g)});
+/* contact opens the visitor's mail app */
+$('#f').onsubmit=function(e){e.preventDefault();location.href='mailto:info@mksgroupco.com?subject='+encodeURIComponent('Project enquiry from '+$('#n').value)+'&body='+encodeURIComponent($('#m').value+'\n\n'+$('#n').value+' ('+$('#e').value+')')};
+/* hero skyline that constructs itself */
+var cv=$('#bg');if(matchMedia('(prefers-reduced-motion:reduce)').matches)return;
+import('https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js').then(function(T){
+ var R=new T.WebGLRenderer({canvas:cv,antialias:true,alpha:true});R.setPixelRatio(Math.min(devicePixelRatio,2));
+ var S3=new T.Scene();S3.fog=new T.FogExp2(0x06080d,.03);var C=new T.PerspectiveCamera(46,1,.1,200),G=new T.Group();S3.add(G);
+ var edge=new T.LineBasicMaterial({color:0xf4efe6,transparent:true,opacity:.38}),hot=new T.LineBasicMaterial({color:0xe8c98f,transparent:true,opacity:.85});
+ var win=new T.PointsMaterial({color:0xe8c98f,size:.07,transparent:true,opacity:.9}),tw=[],seed=7;
+ function rnd(){seed=(seed*16807)%2147483647;return seed/2147483647}
+ for(var x=-16;x<=16;x++)for(var z=-12;z<=12;z++){if(rnd()<.4)continue;var dist=Math.hypot(x*.8,z),h=Math.max(.5,Math.pow(rnd(),2.1)*12*(1-dist/22)+.5),w=.75;
+  var gp=new T.Group();gp.position.set(x*1.5,0,z*1.5);gp.scale.y=.001;gp.userData={d:Math.abs(x)};
+  var geo=new T.BoxGeometry(w,h,w);geo.translate(0,h/2,0);gp.add(new T.LineSegments(new T.EdgesGeometry(geo),rnd()<.14?hot:edge));
+  if(h>2.2){var pts=[],n=Math.floor(h*3);for(var k=0;k<n;k++){if(rnd()<.55)continue;var f=Math.floor(rnd()*4),y=.3+rnd()*(h-.5),o=rnd()*w-w/2;pts.push(f%2?(f===1?w/2+.01:-w/2-.01):o,y,f%2?o:(f?w/2+.01:-w/2-.01))}
+   gp.add(new T.Points(new T.BufferGeometry().setAttribute('position',new T.Float32BufferAttribute(pts,3)),win))}
+  G.add(gp);tw.push(gp)}
+ G.add(new T.GridHelper(90,90,0x2a2a2a,0x14161c));
+ var mx=0,my=0;addEventListener('pointermove',function(e){mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5},{passive:true});
+ function size(){var w=cv.clientWidth,h=cv.clientHeight;R.setSize(w,h,false);C.aspect=w/h;C.updateProjectionMatrix()}size();addEventListener('resize',size);
+ var t0=performance.now(),vis=true;new IntersectionObserver(function(e){vis=e[0].isIntersecting}).observe(cv);
+ (function loop(n){requestAnimationFrame(loop);if(!vis)return;var t=(n-t0)/1000;
+  tw.forEach(function(g){var p=Math.min(Math.max((t-.3-g.userData.d*.08)/2.4,0),1);g.scale.y=Math.max(.001,1-Math.pow(1-p,4))});
+  win.opacity=.65+Math.sin(t*1.7)*.25;
+  G.rotation.y=Math.sin(t*.08)*.25+mx*.3;C.position.set(mx*3,6.5+my*2,25);C.lookAt(0,2.6,0);R.render(S3,C)})(t0)
+}).catch(function(){});
+})();
+</script>
+</body>
+</html>
